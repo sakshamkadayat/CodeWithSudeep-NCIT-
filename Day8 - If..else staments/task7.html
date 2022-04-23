@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       
+       let number = prompt("Enter a number");
+
+       //check if number is exactly divided by 10
+       // if it is divided, then determine if it is a even number or odd number
+
+       // if it in not divided, find the remainder
+       // determine if remainder is even or odd.
+       if(number%10 == 0){
+           if(number%2 == 0){
+               document.write("The number is exactly divisible by 10 and even");
+           }else{
+            document.write("The number is exactly divisible by 10 and odd");
+           }
+       }else{
+           let rem = number%10;
+           if(rem%2 == 0){
+            document.write("The number not exactly divisible  by 10 and the remainder is even");
+           }else{
+            document.write("The number not exactly divisible  by 10 and the remainder is odd");
+           }
+       }
+
+       
+
+       
+        
+    </script>
+</body>
+</html>
